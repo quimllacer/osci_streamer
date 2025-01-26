@@ -16,7 +16,7 @@ def generate_mesh(idx = 6, timer = 0, **kwargs):
         # Platonic solids
         'Cube': tm.creation.box,
         # 'Icosahedron': tm.creation.icosphere,
-        'Load_monkey': tm.exchange.load.load_mesh,
+        #'Load_monkey': tm.exchange.load.load_mesh,
         'Load_octahedron': tm.exchange.load.load_mesh,
         'Load_torus': tm.exchange.load.load_mesh,
     }
@@ -34,9 +34,9 @@ def generate_mesh(idx = 6, timer = 0, **kwargs):
         'Cube': {},
         # 'Icosahedron': {},
         # Load external
-        'Load_monkey': {'file_obj': '../files_to_render/monkey.obj',
-                     'process':False,
-                     },
+        # 'Load_monkey': {'file_obj': '../files_to_render/monkey.obj',
+        #              'process':False,
+        #              },
         'Load_cow': {'file_obj': '../files_to_render/octahedron.obj',
                      'process':False,
                      },

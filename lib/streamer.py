@@ -18,7 +18,7 @@ buffer_duration = 3  # Buffer duration in seconds
 buffer_size = (rate * channels) * buffer_duration  # Max buffer size in frames
 min_buffer = buffer_size // 5
 
-time_per_mesh = 60
+time_per_mesh = 3
 animation_speed = 1.2
 
 audio_buffer = deque()  # Buffer to hold generated audio data
