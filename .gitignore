@@ -1,3 +1,4 @@
 /myenv
 .DS_Store
 osci_streamer.code-workspace
+/assets/objects/*.data
