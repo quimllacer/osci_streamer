@@ -37,10 +37,10 @@ def generate_mesh(idx = 6, timer = 0, **kwargs):
         # 'Load_monkey': {'file_obj': '../files_to_render/monkey.obj',
         #              'process':False,
         #              },
-        'Load_cow': {'file_obj': '../files_to_render/octahedron.obj',
+        'Load_octahedron': {'file_obj': '../assets/objects/octahedron.obj',
                      'process':False,
                      },
-        'Load_horse': {'file_obj': '../files_to_render/torus.obj',
+        'Load_torus': {'file_obj': '../assets/objects/torus.obj',
                      'process':False,
                      },
 
